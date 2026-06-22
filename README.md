@@ -35,12 +35,14 @@ Trong bối cảnh bán lẻ cạnh tranh, Adidas cần xác định:
 
 ### 2. Khám phá dữ liệu & kiểm định thống kê (Python EDA)
 - **Random Forest Regressor**: xác định mức ảnh hưởng của các biến (Retailer, Region, Product, Price, Sales Method) đến `Operating Profit` thông qua Feature Importance — loại `Units Sold` khỏi phân tích vì biến này tác động trực tiếp/hiển nhiên đến lợi nhuận, mục tiêu là tìm yếu tố gián tiếp
+- ![Feature Importance - Random Forest](feature_importance_rf.png)
 - **ANOVA (One-way)**: kiểm định sự khác biệt về Operating Margin giữa 3 kênh bán hàng (In-store/Online/Outlet) — kết quả có ý nghĩa thống kê (p-value < 0.05)
 - **Correlation Matrix**: kiểm tra mối quan hệ giữa Price, Units Sold, Total Sales, Operating Profit, Operating Margin
 
 ### 3. Trực quan hóa & phân tích chuyên sâu (Power BI)
 Dashboard gồm **5 trang phân tích**:
-
+![Dashboard Tổng quan](dashboard_overview.png)
+![Dashboard Phân tích Sản phẩm](dashboard_products.png)
 | Trang | Nội dung |
 |---|---|
 | Tổng quan | Xu hướng doanh thu/lợi nhuận theo năm & tháng, top khu vực/nhà bán lẻ/sản phẩm |
