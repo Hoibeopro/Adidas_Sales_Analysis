@@ -116,8 +116,8 @@ Dashboard gồm **5 trang phân tích**:
 ## 🚀 Cách chạy lại project
 
 ```bash
-git clone https://github.com/Hoibeopro/<ten-repo>.git
-cd <ten-repo>
+git clone https://github.com/Hoibeopro/Adidas_Sales_Analysis.git
+cd Adidas_Sales_Analysis
 pip install pandas numpy scikit-learn scipy matplotlib seaborn openpyxl
 jupyter notebook Adidas.ipynb
 ```
